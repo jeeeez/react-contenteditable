@@ -1,7 +1,7 @@
 {
-	"name": "react-contenteditable",
-	"version": "1.0.0",
-	"description": "React Compenent for a div with `contentEditable = \"true\"`",
+	"name": "react-content-editable",
+	"version": "1.0.1",
+	"description": "React Compenent for a div with 'contentEditable = true'",
 	"main": "./lib/react-contenteditable.js",
 	"scripts": {
 		"compile": "babel -d lib/ src/",
