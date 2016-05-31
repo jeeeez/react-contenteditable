@@ -1,0 +1,43 @@
+{
+	"name": "react-contenteditable",
+	"version": "1.0.0",
+	"description": "React Compenent for a div with `contentEditable = \"true\"`",
+	"main": "./lib/react-contenteditable.js",
+	"scripts": {
+		"compile": "babel -d lib/ src/",
+		"prepublish": "npm run compile"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/li2274221/react-contenteditable.git"
+	},
+	"keywords": [
+		"react-compenent",
+		"contenteditable",
+		"react",
+		"textarea"
+	],
+	"author": "picker",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/li2274221/react-contenteditable/issues"
+	},
+	"homepage": "https://github.com/li2274221/react-contenteditable#readme",
+	"devDependencies": {
+		"babel-cli": ">=6",
+		"babel-plugin-add-module-exports": ">=0",
+		"babel-plugin-syntax-object-rest-spread": "^6.8.0",
+		"babel-plugin-transform-class-properties": "^6.9.1",
+		"babel-preset-es2015": ">=6"
+	},
+	"babel": {
+		"presets": [
+			"es2015"
+		],
+		"plugins": [
+			"transform-class-properties",
+			"syntax-object-rest-spread",
+			"add-module-exports"
+		]
+	}
+}
