@@ -1,9 +1,15 @@
-# react-contenteditable
+# react-content-editable
 
 React Compenent for a div with `contentEditable = "true"`
 
 
 ## Usage 
+
+install
+
+```bash
+npm install react-content-editable --save
+```
 
 ```javascript
 var ContentEditable = require("react-contenteditable");
